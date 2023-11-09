@@ -207,18 +207,18 @@ namespace HW_8
             Person executor9 = new Person("Оуджи Сан", Position.Executor);
 
             List<Project> projects = new List<Project>();
-            Project project1 = new Project("Написать хип-хоп альбом", new DateTime(2099, 12, 20), customer, team_leader);
+            Project project1 = new Project("Написать хип-хоп альбом", new DateTime(2099, 1, 1), customer, team_leader);
             projects.Add(project1);
-            Task task1 = new Task("Написать текста себе и кальмару", new DateTime(2023, 11, 20), team_leader);
-            Task task2 = new Task("Написать текста", new DateTime(2023, 11, 22), team_leader);
-            Task task3 = new Task("Написать текста", new DateTime(2023, 11, 24), team_leader);
-            Task task4 = new Task("Зачитать текста павла и не выпендриваться", new DateTime(2023, 11, 25), team_leader);
-            Task task5 = new Task("Написать текста", new DateTime(2023, 11, 28), team_leader);
-            Task task6 = new Task("Написать текста", new DateTime(2023, 11, 20), team_leader);
-            Task task7 = new Task("Обеспечить комманду стаффом", new DateTime(2023, 12, 10), team_leader);
-            Task task8 = new Task("Респектнуть за стафф", new DateTime(2023, 11, 25), team_leader);
-            Task task9 = new Task("Сделать шикарное интро и  аутро", new DateTime(2023, 12, 5), team_leader);
-            Task task10 = new Task("Сочинить биты", new DateTime(2023, 12, 15), team_leader);
+            Task task1 = new Task("Написать текста себе и кальмару", new DateTime(2099, 1, 1), team_leader);
+            Task task2 = new Task("Написать текста", new DateTime(2099, 1, 1), team_leader);
+            Task task3 = new Task("Написать текста", new DateTime(2099, 1, 1), team_leader);
+            Task task4 = new Task("Зачитать текста павла и не выпендриваться", new DateTime(2099, 1, 1), team_leader);
+            Task task5 = new Task("Написать текста", new DateTime(2099, 1, 1), team_leader);
+            Task task6 = new Task("Написать текста", new DateTime(2099, 1, 1), team_leader);
+            Task task7 = new Task("Обеспечить комманду стаффом", new DateTime(2099, 1, 1), team_leader);
+            Task task8 = new Task("Респектнуть за стафф", new DateTime(2099, 1, 1), team_leader);
+            Task task9 = new Task("Сделать шикарное интро и  аутро", new DateTime(2099, 1, 1), team_leader);
+            Task task10 = new Task("Сочинить биты", new DateTime(2099, 1, 1), team_leader);
 
             project1.AddTask(task1);
             team_leader.AddTask(task1);
